@@ -22,7 +22,7 @@ A simple web application that demonstrates how to use PostgreSQL with Express.js
 
 - Make sure you have PostgreSQL installed and running.
 - Create a database named `top_users`.
-- Create a user named `bee` with password `yamino`.
+- Create a user with a password.
 - To create the `usernames` table and populate it with data, run `node db/populatedb.js`.
 
 ## Environment Variables
@@ -35,6 +35,6 @@ DB_HOST=your_database_host
 DB_DATABASE=your_database_name
 DB_PASSWORD=your_database_password
 DB_PORT=your_database_port
-DATABASE_URL=postgresql://your_database_user:your_database_password@your_database_host:your_database_port/your_database_name
+DATABASE_URL=postgresql://<user>:<password>@<host>:<port>/<database>
 ```
 # postgressql
